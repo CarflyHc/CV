@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format('truetype');
+    src: url(../fonts/Raleway-VariableFont_wght.ttf) format('truetype');
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    max-width: 1160px;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 10px;
+}
+/*HEADER*/
+
+header{
+    background-color: #17abb3;
+    color: #ffffff;
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+}
+.container_image{
+    width: 300px;
+    height: auto;
+    align-items: center;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.contact_list{
+    list-style-type: none;
+    font-size: 0.8em;
+    
+}
