@@ -116,9 +116,40 @@ aside{
     width:30% ;
     height: auto;
     background-color: #f5f5f5;
+    padding: 0.5em 2em;
+
+}
+ .containerAside{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+ }
+
+.containerAside_1{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    line-height: 2em;
+}   
+.containerAside_2{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
+.listAside{
+    list-style-type: none;
+    padding-left: 22px;     
+    line-height: 2em;
+}
 
+.listAside li{
+    list-style-image: url(../Images/carre_bleu.png);
+    padding-left: 1em;
+}
 /*Footer*/
 
 .containerFooter{
