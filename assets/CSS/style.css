@@ -35,6 +35,7 @@ header{
 .container_image{
     width: 300px;
     height: auto;
+    display: flex;
     align-items: center;
 }
 
@@ -47,10 +48,24 @@ header{
 .contact{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 0;
+    line-height: 0.8em;
 }
 .contact_list{
     list-style-type: none;
     font-size: 0.8em;
-    
+    padding: 0 2em;
 }
+
+.list_haut,.list_bas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.6em;
+}
+.contact_name{
+    text-align: center;
+}
+
+/*Aside/*
+
