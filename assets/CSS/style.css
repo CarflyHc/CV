@@ -62,6 +62,8 @@ header{
     list-style-type: none;
     font-size: 0.8em;
     padding: 0 5em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .list_haut,.list_bas{
