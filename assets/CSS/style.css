@@ -67,5 +67,23 @@ header{
     text-align: center;
 }
 
-/*Aside/*
+/*Main*/
 
+main{
+    display: flex;
+    justify-content: stretch;
+}
+
+.right_column{
+    width: 60%;
+    margin: 0 5%;
+}
+
+
+/*Aside*/
+
+aside{
+    width:30% ;
+    height: auto;
+    background-color: #e3e3e3;
+}
